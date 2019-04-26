@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         cpTextView.getContentTextView().setGravity(Gravity.TOP|Gravity.RIGHT);
 
         cpTextView.setLineColor(Color.parseColor("#CCCCCC"))
-                .setLineMargin(45)
-                .setLineSize(1);
+                .setLineMargin(45);
+//                .setLineSize(1);
     }
 }

@@ -129,9 +129,9 @@ public class CpTextView extends ConstraintLayout {
             if(a.hasValue(R.styleable.CpTextView_line_color)){
                 mLine.setBackgroundColor(a.getColor(R.styleable.CpTextView_line_color, Color.parseColor("#DDDDDD")));
             }
-            int height = 0;
+            int height = -1;
             if(a.hasValue(R.styleable.CpTextView_line_size)){
-                height = a.getDimensionPixelSize(R.styleable.CpTextView_line_size, dip2px(0.4f));
+                height = a.getDimensionPixelSize(R.styleable.CpTextView_line_size, 0);
             }
             leftMargin = defaultHorizontalSpace;
             rightMargin = 0;
@@ -141,7 +141,7 @@ public class CpTextView extends ConstraintLayout {
             if(a.hasValue(R.styleable.CpTextView_line_right_margin)){
                 rightMargin = a.getDimensionPixelSize(R.styleable.CpTextView_line_right_margin, 0);
             }
-            if(height != 0 || leftMargin != defaultHorizontalSpace || rightMargin != 0){
+            if(height != -1 || leftMargin != defaultHorizontalSpace || rightMargin != 0){
                 clp = (LayoutParams) mLine.getLayoutParams();
                 clp.leftMargin = leftMargin;
                 clp.rightMargin = rightMargin;

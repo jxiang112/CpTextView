@@ -30,7 +30,7 @@
         app:content_right_margin="20dp"
 
         app:line_color="@android:color/holo_red_dark"
-        app:line_size="1dp"
+        app:line_size="0dp"
         app:line_left_margin="30dp"
         app:line_right_margin="20dp"
 
