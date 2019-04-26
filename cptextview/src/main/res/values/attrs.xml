@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CpTextView">
+
+
+        <attr name="title_text" format="string"/>
+        <attr name="title_text_size" format="integer"/>
+        <attr name="title_text_color" format="color"/>
+        <attr name="title_left_ico" format="reference"/>
+        <attr name="title_ico_padding" format="dimension"/>
+        <attr name="title_left_margin" format="dimension"/>
+        <attr name="title_right_margin" format="dimension"/>
+
+        <attr name="content_text" format="string"/>
+        <attr name="content_text_size" format="integer"/>
+        <attr name="content_text_color" format="color"/>
+        <attr name="content_right_ico" format="reference"/>
+        <attr name="content_ico_padding" format="dimension"/>
+        <attr name="content_left_margin" format="dimension"/>
+        <attr name="content_right_margin" format="dimension"/>
+
+        <attr name="line_size" format="dimension"/>
+        <attr name="line_color" format="color"/>
+        <attr name="line_left_margin" format="dimension"/>
+        <attr name="line_right_margin" format="dimension"/>
+
+        <attr name="item_padding_top" format="dimension"/>
+        <attr name="item_padding_bottom" format="dimension"/>
+        <attr name="item_gravity">
+            <enum name="top" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="bottom" value="2"/>
+        </attr>
+
+    </declare-styleable>
+</resources>

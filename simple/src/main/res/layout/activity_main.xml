@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.wyx.components.cptextview.CpTextView
+        android:id="@+id/cp_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="44dp"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title_text="姓名："
+        app:title_text_size="24"
+        app:title_text_color="@color/colorPrimary"
+        app:title_ico_padding="5dp"
+        app:title_left_ico="@mipmap/ic_launcher"
+
+        app:content_text="韦永祥"
+        app:content_text_size="18"
+        app:content_text_color="@color/colorPrimaryDark"
+        app:content_ico_padding="5dp"
+        app:content_right_ico="@mipmap/ic_launcher"
+        app:content_right_margin="20dp"
+
+        app:line_color="@android:color/holo_red_dark"
+        app:line_size="1dp"
+        app:line_left_margin="30dp"
+        app:line_right_margin="20dp"
+
+        />
+
+</android.support.constraint.ConstraintLayout>
